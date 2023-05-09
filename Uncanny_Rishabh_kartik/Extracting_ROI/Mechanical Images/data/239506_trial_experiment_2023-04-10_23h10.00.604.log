@@ -1,0 +1,467 @@
+4.0014 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.3181 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+12.3286 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CACD9BD310>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001CACFCA60D0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.3289 	EXP 	window1: mouseVisible = True
+12.3291 	EXP 	window1: mouseVisible = False
+12.3292 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.3292 	EXP 	window1: recordFrameIntervals = False
+12.4944 	EXP 	window1: recordFrameIntervals = True
+12.6782 	EXP 	Screen (0) actual frame rate measured at 59.85Hz
+12.6783 	EXP 	window1: recordFrameIntervals = False
+17.0774 	EXP 	Created whole_image = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([ 1.,  1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1., -1.]), lineWidth=1.0, name='whole_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+17.0878 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+17.0892 	EXP 	Created eyes = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1.0, name='eyes', opacity=0.5, ori=0.0, pos=array([0.  , 0.02]), size=array([0.34, 0.16]), units='height', vertices=ndarray(...), win=Window(...))
+17.0904 	EXP 	Created mouth = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([ 1.    , -0.4588, -1.    ]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.4588, -1.    ]), lineWidth=1.0, name='mouth', opacity=0.5, ori=0.0, pos=array([ 0.  , -0.12]), size=array([0.29, 0.11]), units='height', vertices=ndarray(...), win=Window(...))
+17.1073 	EXP 	Imported robotic_images.xlsx as conditions, 45 conditions, 4 params
+17.1100 	EXP 	Created sequence: random, trialTypes=45, nReps=1, seed=None
+17.1104 	EXP 	New trial (rep=0, index=0): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c36.jpeg', 'file_name': 'matched-32-cpi-low-c36.jpeg'}
+17.1728 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c36.jpeg'
+17.1728 	EXP 	whole_image: autoDraw = True
+17.1728 	EXP 	image: autoDraw = True
+17.1728 	EXP 	eyes: autoDraw = True
+17.1728 	EXP 	mouth: autoDraw = True
+18.1147 	EXP 	New trial (rep=0, index=1): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c36.jpeg', 'file_name': 'matched-c36.jpeg'}
+18.1809 	EXP 	whole_image: autoDraw = False
+18.1809 	EXP 	image: autoDraw = False
+18.1809 	EXP 	eyes: autoDraw = False
+18.1809 	EXP 	mouth: autoDraw = False
+18.1809 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c36.jpeg'
+18.1809 	EXP 	whole_image: autoDraw = True
+18.1809 	EXP 	image: autoDraw = True
+18.1809 	EXP 	eyes: autoDraw = True
+18.1809 	EXP 	mouth: autoDraw = True
+19.1150 	EXP 	New trial (rep=0, index=2): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c42.jpeg', 'file_name': 'matched-32-cpi-low-c42.jpeg'}
+19.1660 	EXP 	whole_image: autoDraw = False
+19.1660 	EXP 	image: autoDraw = False
+19.1660 	EXP 	eyes: autoDraw = False
+19.1660 	EXP 	mouth: autoDraw = False
+19.1660 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c42.jpeg'
+19.1660 	EXP 	whole_image: autoDraw = True
+19.1660 	EXP 	image: autoDraw = True
+19.1660 	EXP 	eyes: autoDraw = True
+19.1660 	EXP 	mouth: autoDraw = True
+20.0985 	EXP 	New trial (rep=0, index=3): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c43.jpeg', 'file_name': 'Matched-c43.jpeg'}
+20.1643 	EXP 	whole_image: autoDraw = False
+20.1643 	EXP 	image: autoDraw = False
+20.1643 	EXP 	eyes: autoDraw = False
+20.1643 	EXP 	mouth: autoDraw = False
+20.1643 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c43.jpeg'
+20.1643 	EXP 	whole_image: autoDraw = True
+20.1643 	EXP 	image: autoDraw = True
+20.1643 	EXP 	eyes: autoDraw = True
+20.1643 	EXP 	mouth: autoDraw = True
+21.1313 	EXP 	New trial (rep=0, index=4): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c37.jpeg', 'file_name': 'matched-8-cpi-low-c37.jpeg'}
+21.1976 	EXP 	whole_image: autoDraw = False
+21.1976 	EXP 	image: autoDraw = False
+21.1976 	EXP 	eyes: autoDraw = False
+21.1976 	EXP 	mouth: autoDraw = False
+21.1976 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c37.jpeg'
+21.1976 	EXP 	whole_image: autoDraw = True
+21.1976 	EXP 	image: autoDraw = True
+21.1976 	EXP 	eyes: autoDraw = True
+21.1976 	EXP 	mouth: autoDraw = True
+22.0987 	EXP 	New trial (rep=0, index=5): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c10.jpeg', 'file_name': 'matched-8-cpi-low-c10.jpeg'}
+22.1643 	EXP 	whole_image: autoDraw = False
+22.1643 	EXP 	image: autoDraw = False
+22.1643 	EXP 	eyes: autoDraw = False
+22.1643 	EXP 	mouth: autoDraw = False
+22.1643 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c10.jpeg'
+22.1643 	EXP 	whole_image: autoDraw = True
+22.1643 	EXP 	image: autoDraw = True
+22.1643 	EXP 	eyes: autoDraw = True
+22.1643 	EXP 	mouth: autoDraw = True
+23.0990 	EXP 	New trial (rep=0, index=6): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c33.jpeg', 'file_name': 'matched-32-cpi-low-c33.jpeg'}
+23.1641 	EXP 	whole_image: autoDraw = False
+23.1641 	EXP 	image: autoDraw = False
+23.1641 	EXP 	eyes: autoDraw = False
+23.1641 	EXP 	mouth: autoDraw = False
+23.1641 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c33.jpeg'
+23.1641 	EXP 	whole_image: autoDraw = True
+23.1641 	EXP 	image: autoDraw = True
+23.1641 	EXP 	eyes: autoDraw = True
+23.1641 	EXP 	mouth: autoDraw = True
+24.1146 	EXP 	New trial (rep=0, index=7): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c36.jpeg', 'file_name': 'matched-8-cpi-low-c36.jpeg'}
+24.1641 	EXP 	whole_image: autoDraw = False
+24.1641 	EXP 	image: autoDraw = False
+24.1641 	EXP 	eyes: autoDraw = False
+24.1641 	EXP 	mouth: autoDraw = False
+24.1641 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c36.jpeg'
+24.1641 	EXP 	whole_image: autoDraw = True
+24.1641 	EXP 	image: autoDraw = True
+24.1641 	EXP 	eyes: autoDraw = True
+24.1641 	EXP 	mouth: autoDraw = True
+25.1148 	EXP 	New trial (rep=0, index=8): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c38.jpeg', 'file_name': 'matched-32-cpi-low-c38.jpeg'}
+25.1810 	EXP 	whole_image: autoDraw = False
+25.1810 	EXP 	image: autoDraw = False
+25.1810 	EXP 	eyes: autoDraw = False
+25.1810 	EXP 	mouth: autoDraw = False
+25.1810 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c38.jpeg'
+25.1810 	EXP 	whole_image: autoDraw = True
+25.1810 	EXP 	image: autoDraw = True
+25.1810 	EXP 	eyes: autoDraw = True
+25.1810 	EXP 	mouth: autoDraw = True
+26.1158 	EXP 	New trial (rep=0, index=9): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c11.jpeg', 'file_name': 'matched-c11.jpeg'}
+26.2145 	EXP 	whole_image: autoDraw = False
+26.2145 	EXP 	image: autoDraw = False
+26.2145 	EXP 	eyes: autoDraw = False
+26.2145 	EXP 	mouth: autoDraw = False
+26.2145 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c11.jpeg'
+26.2145 	EXP 	whole_image: autoDraw = True
+26.2145 	EXP 	image: autoDraw = True
+26.2145 	EXP 	eyes: autoDraw = True
+26.2145 	EXP 	mouth: autoDraw = True
+27.1150 	EXP 	New trial (rep=0, index=10): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c10.jpeg', 'file_name': 'matched-32-cpi-low-c10.jpeg'}
+27.1809 	EXP 	whole_image: autoDraw = False
+27.1809 	EXP 	image: autoDraw = False
+27.1809 	EXP 	eyes: autoDraw = False
+27.1809 	EXP 	mouth: autoDraw = False
+27.1809 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c10.jpeg'
+27.1809 	EXP 	whole_image: autoDraw = True
+27.1809 	EXP 	image: autoDraw = True
+27.1809 	EXP 	eyes: autoDraw = True
+27.1809 	EXP 	mouth: autoDraw = True
+28.1151 	EXP 	New trial (rep=0, index=11): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c27.jpeg', 'file_name': 'matched-c27.jpeg'}
+28.1809 	EXP 	whole_image: autoDraw = False
+28.1809 	EXP 	image: autoDraw = False
+28.1809 	EXP 	eyes: autoDraw = False
+28.1809 	EXP 	mouth: autoDraw = False
+28.1809 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c27.jpeg'
+28.1809 	EXP 	whole_image: autoDraw = True
+28.1809 	EXP 	image: autoDraw = True
+28.1809 	EXP 	eyes: autoDraw = True
+28.1809 	EXP 	mouth: autoDraw = True
+29.1144 	EXP 	New trial (rep=0, index=12): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c16.jpeg', 'file_name': 'matched-32-cpi-low-c16.jpeg'}
+29.1666 	EXP 	whole_image: autoDraw = False
+29.1666 	EXP 	image: autoDraw = False
+29.1666 	EXP 	eyes: autoDraw = False
+29.1666 	EXP 	mouth: autoDraw = False
+29.1666 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c16.jpeg'
+29.1666 	EXP 	whole_image: autoDraw = True
+29.1666 	EXP 	image: autoDraw = True
+29.1666 	EXP 	eyes: autoDraw = True
+29.1666 	EXP 	mouth: autoDraw = True
+30.0980 	EXP 	New trial (rep=0, index=13): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c17.jpeg', 'file_name': 'matched-8-cpi-low-c17.jpeg'}
+30.1640 	EXP 	whole_image: autoDraw = False
+30.1640 	EXP 	image: autoDraw = False
+30.1640 	EXP 	eyes: autoDraw = False
+30.1640 	EXP 	mouth: autoDraw = False
+30.1640 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c17.jpeg'
+30.1640 	EXP 	whole_image: autoDraw = True
+30.1640 	EXP 	image: autoDraw = True
+30.1640 	EXP 	eyes: autoDraw = True
+30.1640 	EXP 	mouth: autoDraw = True
+31.0984 	EXP 	New trial (rep=0, index=14): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c12.jpeg', 'file_name': 'matched-c12.jpeg'}
+31.1640 	EXP 	whole_image: autoDraw = False
+31.1640 	EXP 	image: autoDraw = False
+31.1640 	EXP 	eyes: autoDraw = False
+31.1640 	EXP 	mouth: autoDraw = False
+31.1640 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c12.jpeg'
+31.1640 	EXP 	whole_image: autoDraw = True
+31.1640 	EXP 	image: autoDraw = True
+31.1640 	EXP 	eyes: autoDraw = True
+31.1640 	EXP 	mouth: autoDraw = True
+32.1156 	EXP 	New trial (rep=0, index=15): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c42.jpeg', 'file_name': 'matched-c42.jpeg'}
+32.1808 	EXP 	whole_image: autoDraw = False
+32.1808 	EXP 	image: autoDraw = False
+32.1808 	EXP 	eyes: autoDraw = False
+32.1808 	EXP 	mouth: autoDraw = False
+32.1808 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c42.jpeg'
+32.1808 	EXP 	whole_image: autoDraw = True
+32.1808 	EXP 	image: autoDraw = True
+32.1808 	EXP 	eyes: autoDraw = True
+32.1808 	EXP 	mouth: autoDraw = True
+33.0985 	EXP 	New trial (rep=0, index=16): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c37.jpeg', 'file_name': 'matched-32-cpi-low-c37.jpeg'}
+33.1976 	EXP 	whole_image: autoDraw = False
+33.1976 	EXP 	image: autoDraw = False
+33.1976 	EXP 	eyes: autoDraw = False
+33.1976 	EXP 	mouth: autoDraw = False
+33.1976 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c37.jpeg'
+33.1976 	EXP 	whole_image: autoDraw = True
+33.1976 	EXP 	image: autoDraw = True
+33.1976 	EXP 	eyes: autoDraw = True
+33.1976 	EXP 	mouth: autoDraw = True
+34.1151 	EXP 	New trial (rep=0, index=17): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c33.jpeg', 'file_name': 'matched-c33.jpeg'}
+34.1810 	EXP 	whole_image: autoDraw = False
+34.1810 	EXP 	image: autoDraw = False
+34.1810 	EXP 	eyes: autoDraw = False
+34.1810 	EXP 	mouth: autoDraw = False
+34.1810 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c33.jpeg'
+34.1810 	EXP 	whole_image: autoDraw = True
+34.1810 	EXP 	image: autoDraw = True
+34.1810 	EXP 	eyes: autoDraw = True
+34.1810 	EXP 	mouth: autoDraw = True
+35.2645 	EXP 	New trial (rep=0, index=18): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c41.jpeg', 'file_name': 'matched-32-cpi-low-c41.jpeg'}
+35.3312 	EXP 	whole_image: autoDraw = False
+35.3312 	EXP 	image: autoDraw = False
+35.3312 	EXP 	eyes: autoDraw = False
+35.3312 	EXP 	mouth: autoDraw = False
+35.3312 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c41.jpeg'
+35.3312 	EXP 	whole_image: autoDraw = True
+35.3312 	EXP 	image: autoDraw = True
+35.3312 	EXP 	eyes: autoDraw = True
+35.3312 	EXP 	mouth: autoDraw = True
+36.6817 	EXP 	New trial (rep=0, index=19): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c35.jpeg', 'file_name': 'matched-32-cpi-low-c35.jpeg'}
+36.7807 	EXP 	whole_image: autoDraw = False
+36.7807 	EXP 	image: autoDraw = False
+36.7807 	EXP 	eyes: autoDraw = False
+36.7807 	EXP 	mouth: autoDraw = False
+36.7807 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c35.jpeg'
+36.7807 	EXP 	whole_image: autoDraw = True
+36.7807 	EXP 	image: autoDraw = True
+36.7807 	EXP 	eyes: autoDraw = True
+36.7807 	EXP 	mouth: autoDraw = True
+37.1143 	EXP 	New trial (rep=0, index=20): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c17.jpeg', 'file_name': 'matched-c17.jpeg'}
+37.2143 	EXP 	whole_image: autoDraw = False
+37.2143 	EXP 	image: autoDraw = False
+37.2143 	EXP 	eyes: autoDraw = False
+37.2143 	EXP 	mouth: autoDraw = False
+37.2143 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c17.jpeg'
+37.2143 	EXP 	whole_image: autoDraw = True
+37.2143 	EXP 	image: autoDraw = True
+37.2143 	EXP 	eyes: autoDraw = True
+37.2143 	EXP 	mouth: autoDraw = True
+38.0978 	EXP 	New trial (rep=0, index=21): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c38.jpeg', 'file_name': 'matched-8-cpi-low-c38.jpeg'}
+38.1639 	EXP 	whole_image: autoDraw = False
+38.1639 	EXP 	image: autoDraw = False
+38.1639 	EXP 	eyes: autoDraw = False
+38.1639 	EXP 	mouth: autoDraw = False
+38.1639 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c38.jpeg'
+38.1639 	EXP 	whole_image: autoDraw = True
+38.1639 	EXP 	image: autoDraw = True
+38.1639 	EXP 	eyes: autoDraw = True
+38.1639 	EXP 	mouth: autoDraw = True
+39.0978 	EXP 	New trial (rep=0, index=22): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c12.jpeg', 'file_name': 'matched-8-cpi-low-c12.jpeg'}
+39.1638 	EXP 	whole_image: autoDraw = False
+39.1638 	EXP 	image: autoDraw = False
+39.1638 	EXP 	eyes: autoDraw = False
+39.1638 	EXP 	mouth: autoDraw = False
+39.1638 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c12.jpeg'
+39.1638 	EXP 	whole_image: autoDraw = True
+39.1638 	EXP 	image: autoDraw = True
+39.1638 	EXP 	eyes: autoDraw = True
+39.1638 	EXP 	mouth: autoDraw = True
+40.1313 	EXP 	New trial (rep=0, index=23): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c37.jpeg', 'file_name': 'matched-c37.jpeg'}
+40.1973 	EXP 	whole_image: autoDraw = False
+40.1973 	EXP 	image: autoDraw = False
+40.1973 	EXP 	eyes: autoDraw = False
+40.1973 	EXP 	mouth: autoDraw = False
+40.1973 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c37.jpeg'
+40.1973 	EXP 	whole_image: autoDraw = True
+40.1973 	EXP 	image: autoDraw = True
+40.1973 	EXP 	eyes: autoDraw = True
+40.1973 	EXP 	mouth: autoDraw = True
+41.1146 	EXP 	New trial (rep=0, index=24): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c43.jpeg', 'file_name': 'matched-32-cpi-low-c43.jpeg'}
+41.1980 	EXP 	whole_image: autoDraw = False
+41.1980 	EXP 	image: autoDraw = False
+41.1980 	EXP 	eyes: autoDraw = False
+41.1980 	EXP 	mouth: autoDraw = False
+41.1980 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c43.jpeg'
+41.1980 	EXP 	whole_image: autoDraw = True
+41.1980 	EXP 	image: autoDraw = True
+41.1980 	EXP 	eyes: autoDraw = True
+41.1980 	EXP 	mouth: autoDraw = True
+42.1311 	EXP 	New trial (rep=0, index=25): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c35.jpeg', 'file_name': 'matched-8-cpi-low-c35.jpeg'}
+42.1972 	EXP 	whole_image: autoDraw = False
+42.1972 	EXP 	image: autoDraw = False
+42.1972 	EXP 	eyes: autoDraw = False
+42.1972 	EXP 	mouth: autoDraw = False
+42.1972 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c35.jpeg'
+42.1972 	EXP 	whole_image: autoDraw = True
+42.1972 	EXP 	image: autoDraw = True
+42.1972 	EXP 	eyes: autoDraw = True
+42.1972 	EXP 	mouth: autoDraw = True
+43.0983 	EXP 	New trial (rep=0, index=26): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c33.jpeg', 'file_name': 'matched-8-cpi-low-c33.jpeg'}
+43.1974 	EXP 	whole_image: autoDraw = False
+43.1974 	EXP 	image: autoDraw = False
+43.1974 	EXP 	eyes: autoDraw = False
+43.1974 	EXP 	mouth: autoDraw = False
+43.1974 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c33.jpeg'
+43.1974 	EXP 	whole_image: autoDraw = True
+43.1974 	EXP 	image: autoDraw = True
+43.1974 	EXP 	eyes: autoDraw = True
+43.1974 	EXP 	mouth: autoDraw = True
+44.1318 	EXP 	New trial (rep=0, index=27): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c16.jpeg', 'file_name': 'matched-c16.jpeg'}
+44.1971 	EXP 	whole_image: autoDraw = False
+44.1971 	EXP 	image: autoDraw = False
+44.1971 	EXP 	eyes: autoDraw = False
+44.1971 	EXP 	mouth: autoDraw = False
+44.1971 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c16.jpeg'
+44.1971 	EXP 	whole_image: autoDraw = True
+44.1971 	EXP 	image: autoDraw = True
+44.1971 	EXP 	eyes: autoDraw = True
+44.1971 	EXP 	mouth: autoDraw = True
+45.1318 	EXP 	New trial (rep=0, index=28): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c12.jpeg', 'file_name': 'matched-32-cpi-low-c12.jpeg'}
+45.2473 	EXP 	whole_image: autoDraw = False
+45.2473 	EXP 	image: autoDraw = False
+45.2473 	EXP 	eyes: autoDraw = False
+45.2473 	EXP 	mouth: autoDraw = False
+45.2473 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c12.jpeg'
+45.2473 	EXP 	whole_image: autoDraw = True
+45.2473 	EXP 	image: autoDraw = True
+45.2473 	EXP 	eyes: autoDraw = True
+45.2473 	EXP 	mouth: autoDraw = True
+46.1313 	EXP 	New trial (rep=0, index=29): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c41.jpeg', 'file_name': 'matched-8-cpi-low-c41.jpeg'}
+46.1971 	EXP 	whole_image: autoDraw = False
+46.1971 	EXP 	image: autoDraw = False
+46.1971 	EXP 	eyes: autoDraw = False
+46.1971 	EXP 	mouth: autoDraw = False
+46.1971 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c41.jpeg'
+46.1971 	EXP 	whole_image: autoDraw = True
+46.1971 	EXP 	image: autoDraw = True
+46.1971 	EXP 	eyes: autoDraw = True
+46.1971 	EXP 	mouth: autoDraw = True
+47.1315 	EXP 	New trial (rep=0, index=30): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c43.jpeg', 'file_name': 'matched-8-cpi-low-c43.jpeg'}
+47.1971 	EXP 	whole_image: autoDraw = False
+47.1971 	EXP 	image: autoDraw = False
+47.1971 	EXP 	eyes: autoDraw = False
+47.1971 	EXP 	mouth: autoDraw = False
+47.1971 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c43.jpeg'
+47.1971 	EXP 	whole_image: autoDraw = True
+47.1971 	EXP 	image: autoDraw = True
+47.1971 	EXP 	eyes: autoDraw = True
+47.1971 	EXP 	mouth: autoDraw = True
+48.0976 	EXP 	New trial (rep=0, index=31): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c14.jpeg', 'file_name': 'matched-8-cpi-low-c14.jpeg'}
+48.1638 	EXP 	whole_image: autoDraw = False
+48.1638 	EXP 	image: autoDraw = False
+48.1638 	EXP 	eyes: autoDraw = False
+48.1638 	EXP 	mouth: autoDraw = False
+48.1638 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c14.jpeg'
+48.1638 	EXP 	whole_image: autoDraw = True
+48.1638 	EXP 	image: autoDraw = True
+48.1638 	EXP 	eyes: autoDraw = True
+48.1638 	EXP 	mouth: autoDraw = True
+49.1314 	EXP 	New trial (rep=0, index=32): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c11.jpeg', 'file_name': 'matched-8-cpi-low-c11.jpeg'}
+49.1972 	EXP 	whole_image: autoDraw = False
+49.1972 	EXP 	image: autoDraw = False
+49.1972 	EXP 	eyes: autoDraw = False
+49.1972 	EXP 	mouth: autoDraw = False
+49.1972 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c11.jpeg'
+49.1972 	EXP 	whole_image: autoDraw = True
+49.1972 	EXP 	image: autoDraw = True
+49.1972 	EXP 	eyes: autoDraw = True
+49.1972 	EXP 	mouth: autoDraw = True
+50.1311 	EXP 	New trial (rep=0, index=33): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c14.jpeg', 'file_name': 'matched-c14.jpeg'}
+50.1972 	EXP 	whole_image: autoDraw = False
+50.1972 	EXP 	image: autoDraw = False
+50.1972 	EXP 	eyes: autoDraw = False
+50.1972 	EXP 	mouth: autoDraw = False
+50.1972 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c14.jpeg'
+50.1972 	EXP 	whole_image: autoDraw = True
+50.1972 	EXP 	image: autoDraw = True
+50.1972 	EXP 	eyes: autoDraw = True
+50.1972 	EXP 	mouth: autoDraw = True
+51.1308 	EXP 	New trial (rep=0, index=34): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c16.jpeg', 'file_name': 'matched-8-cpi-low-c16.jpeg'}
+51.2138 	EXP 	whole_image: autoDraw = False
+51.2138 	EXP 	image: autoDraw = False
+51.2138 	EXP 	eyes: autoDraw = False
+51.2138 	EXP 	mouth: autoDraw = False
+51.2138 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c16.jpeg'
+51.2138 	EXP 	whole_image: autoDraw = True
+51.2138 	EXP 	image: autoDraw = True
+51.2138 	EXP 	eyes: autoDraw = True
+51.2138 	EXP 	mouth: autoDraw = True
+52.1154 	EXP 	New trial (rep=0, index=35): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c27.jpeg', 'file_name': 'matched-8-cpi-low-c27.jpeg'}
+52.1807 	EXP 	whole_image: autoDraw = False
+52.1807 	EXP 	image: autoDraw = False
+52.1807 	EXP 	eyes: autoDraw = False
+52.1807 	EXP 	mouth: autoDraw = False
+52.1807 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c27.jpeg'
+52.1807 	EXP 	whole_image: autoDraw = True
+52.1807 	EXP 	image: autoDraw = True
+52.1807 	EXP 	eyes: autoDraw = True
+52.1807 	EXP 	mouth: autoDraw = True
+53.1144 	EXP 	New trial (rep=0, index=36): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c14.jpeg', 'file_name': 'matched-32-cpi-low-c14.jpeg'}
+53.1805 	EXP 	whole_image: autoDraw = False
+53.1805 	EXP 	image: autoDraw = False
+53.1805 	EXP 	eyes: autoDraw = False
+53.1805 	EXP 	mouth: autoDraw = False
+53.1805 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c14.jpeg'
+53.1805 	EXP 	whole_image: autoDraw = True
+53.1805 	EXP 	image: autoDraw = True
+53.1805 	EXP 	eyes: autoDraw = True
+53.1805 	EXP 	mouth: autoDraw = True
+54.1311 	EXP 	New trial (rep=0, index=37): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c27.jpeg', 'file_name': 'matched-32-cpi-low-c27.jpeg'}
+54.2302 	EXP 	whole_image: autoDraw = False
+54.2302 	EXP 	image: autoDraw = False
+54.2302 	EXP 	eyes: autoDraw = False
+54.2302 	EXP 	mouth: autoDraw = False
+54.2302 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c27.jpeg'
+54.2302 	EXP 	whole_image: autoDraw = True
+54.2302 	EXP 	image: autoDraw = True
+54.2302 	EXP 	eyes: autoDraw = True
+54.2302 	EXP 	mouth: autoDraw = True
+55.1308 	EXP 	New trial (rep=0, index=38): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c17.jpeg', 'file_name': 'matched-32-cpi-low-c17.jpeg'}
+55.1969 	EXP 	whole_image: autoDraw = False
+55.1969 	EXP 	image: autoDraw = False
+55.1969 	EXP 	eyes: autoDraw = False
+55.1969 	EXP 	mouth: autoDraw = False
+55.1969 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c17.jpeg'
+55.1969 	EXP 	whole_image: autoDraw = True
+55.1969 	EXP 	image: autoDraw = True
+55.1969 	EXP 	eyes: autoDraw = True
+55.1969 	EXP 	mouth: autoDraw = True
+56.0975 	EXP 	New trial (rep=0, index=39): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c41.jpeg', 'file_name': 'matched-c41.jpeg'}
+56.1636 	EXP 	whole_image: autoDraw = False
+56.1636 	EXP 	image: autoDraw = False
+56.1636 	EXP 	eyes: autoDraw = False
+56.1636 	EXP 	mouth: autoDraw = False
+56.1636 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c41.jpeg'
+56.1636 	EXP 	whole_image: autoDraw = True
+56.1636 	EXP 	image: autoDraw = True
+56.1636 	EXP 	eyes: autoDraw = True
+56.1636 	EXP 	mouth: autoDraw = True
+57.1479 	EXP 	New trial (rep=0, index=40): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c10.jpeg', 'file_name': 'matched-c10.jpeg'}
+57.2325 	EXP 	whole_image: autoDraw = False
+57.2325 	EXP 	image: autoDraw = False
+57.2325 	EXP 	eyes: autoDraw = False
+57.2325 	EXP 	mouth: autoDraw = False
+57.2325 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c10.jpeg'
+57.2325 	EXP 	whole_image: autoDraw = True
+57.2325 	EXP 	image: autoDraw = True
+57.2325 	EXP 	eyes: autoDraw = True
+57.2325 	EXP 	mouth: autoDraw = True
+58.1140 	EXP 	New trial (rep=0, index=41): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c38.jpeg', 'file_name': 'matched-c38.jpeg'}
+58.1810 	EXP 	whole_image: autoDraw = False
+58.1810 	EXP 	image: autoDraw = False
+58.1810 	EXP 	eyes: autoDraw = False
+58.1810 	EXP 	mouth: autoDraw = False
+58.1810 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c38.jpeg'
+58.1810 	EXP 	whole_image: autoDraw = True
+58.1810 	EXP 	image: autoDraw = True
+58.1810 	EXP 	eyes: autoDraw = True
+58.1810 	EXP 	mouth: autoDraw = True
+59.1158 	EXP 	New trial (rep=0, index=42): {'Type': 'Mechanical', 'Spatial_Frequency': 'BSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-c35.jpeg', 'file_name': 'matched-c35.jpeg'}
+59.1829 	EXP 	whole_image: autoDraw = False
+59.1829 	EXP 	image: autoDraw = False
+59.1829 	EXP 	eyes: autoDraw = False
+59.1829 	EXP 	mouth: autoDraw = False
+59.1829 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-c35.jpeg'
+59.1829 	EXP 	whole_image: autoDraw = True
+59.1829 	EXP 	image: autoDraw = True
+59.1829 	EXP 	eyes: autoDraw = True
+59.1829 	EXP 	mouth: autoDraw = True
+60.1156 	EXP 	New trial (rep=0, index=43): {'Type': 'Mechanical', 'Spatial_Frequency': 'LSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c42.jpeg', 'file_name': 'matched-8-cpi-low-c42.jpeg'}
+60.1967 	EXP 	whole_image: autoDraw = False
+60.1967 	EXP 	image: autoDraw = False
+60.1967 	EXP 	eyes: autoDraw = False
+60.1967 	EXP 	mouth: autoDraw = False
+60.1967 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-8-cpi-low-c42.jpeg'
+60.1967 	EXP 	whole_image: autoDraw = True
+60.1967 	EXP 	image: autoDraw = True
+60.1967 	EXP 	eyes: autoDraw = True
+60.1967 	EXP 	mouth: autoDraw = True
+61.1309 	EXP 	New trial (rep=0, index=44): {'Type': 'Mechanical', 'Spatial_Frequency': 'HSF', 'filepath': 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c11.jpeg', 'file_name': 'matched-32-cpi-low-c11.jpeg'}
+61.1969 	EXP 	whole_image: autoDraw = False
+61.1969 	EXP 	image: autoDraw = False
+61.1969 	EXP 	eyes: autoDraw = False
+61.1969 	EXP 	mouth: autoDraw = False
+61.1969 	EXP 	image: image = 'Stimuli For Psychopy\\Robotic\\matched-32-cpi-low-c11.jpeg'
+61.1969 	EXP 	whole_image: autoDraw = True
+61.1969 	EXP 	image: autoDraw = True
+61.1969 	EXP 	eyes: autoDraw = True
+61.1969 	EXP 	mouth: autoDraw = True
+62.1470 	EXP 	whole_image: autoDraw = False
+62.1470 	EXP 	image: autoDraw = False
+62.1470 	EXP 	eyes: autoDraw = False
+62.1470 	EXP 	mouth: autoDraw = False
+62.2854 	EXP 	window1: mouseVisible = True
