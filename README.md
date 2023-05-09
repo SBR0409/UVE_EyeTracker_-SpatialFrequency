@@ -28,3 +28,10 @@ Pre 2: Copy the two csv files created by extracting the HDF5 into LH, LR, MH, MR
 5. Run humanoid.py for ROI Gaze summary bar plot for humanoid stimuli
 
 6. Run robotic.py for ROI Gaze summary bar plot for robotic stimuli
+
+7. Run getBehaviorAnalysisData.py to get ROI Gaze summary for Human and Mechanical Images (with subplots for each Likeability and MH rating bracket).
+      - Upon execution, this message is printed:  
+      ```
+      Successfuly created HumanROI.png and MachineROI.png      
+      ```
+*Note: Some files are imported and used in other codes(which are executed). Change to these files will affect many others as well.*
